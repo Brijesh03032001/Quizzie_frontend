@@ -1,0 +1,157 @@
+.Dashboard_modalOverlay__NqVJp {
+    align-items: center;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    background-color: rgba(0,0,0,.69);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+.Dashboard_modalQuizTypeContainer__KFrc4 div {
+    padding-top: 1rem; 
+    
+}
+.Dashboard_modalQuizTypeContainer__KFrc4 label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: 2px solid none ;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.15);
+    border-radius: 0.625rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Dashboard_modalQuizTypeContainer__KFrc4 label:hover {
+    background-color: #60b84b;
+    color: #fff;
+}
+
+.Dashboard_modalQuizTypeContainer__KFrc4 input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.Dashboard_modalQuizTypeContainer__KFrc4 input[type="radio"]:checked + label {
+    background-color: #60b84b;
+    color: #fff;
+}
+.Dashboard_modal__BGhMb {
+    background-color: #fff;
+    border-radius: 5px;
+    height: 30vh;
+    padding: 2.5rem;
+    width: 30vw;
+}
+
+.Dashboard_modalQuizNameContent__P2yDB {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: -webkit-fill-available;
+    justify-content: center;
+}
+.Dashboard_modalQuizNameInput__1w26L {
+    background: #fff;
+    border: none;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.15);
+    font-size: 1rem;
+    padding: 1rem;
+    width: -webkit-fill-available;
+}
+.Dashboard_modalQuizTypeContainer__KFrc4 label input[type="text" i] {
+    writing-mode: horizontal-tb !important;
+    padding-block: 1px;
+    padding-inline: 2px;
+} 
+Dashboard_modalQuizTypeContainer__KFrc4 label  input[type=radio]:checked {
+    color: #60b84b;
+}
+Dashboard_modalQuizTypeContainer__KFrc4 label input[type="radio" i] {
+    background-color: red;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+.Dashboard_modalQuizTypeContainer__KFrc4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Dashboard_buttonContainer__jYQEj {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    width: -webkit-fill-available;
+}
+div {
+    display: block;
+}
+
+
+.Dashboard_cancelModalButton__XBrnr {
+    background: #fff;
+    border: none;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.25);
+    cursor: pointer;
+    flex: 1 1;
+    padding: 0.5rem;
+    transition-duration: .4s;
+}
+.Dashboard_cancelModalButton__XBrnr:hover {
+    background: #f0f0f0; /* Change the color to your desired hover effect */
+}
+.Dashboard_cancelModalButton__XBrnr button {
+    appearance: auto;
+    
+   
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+.Dashboard_confirmQuizNameButton__qZUIA {
+    background: #60b84b;
+    border: none;
+    border-radius: 0.625rem;
+    color: #fff;
+    cursor: pointer;
+    flex: 1 1;
+    padding: 0.5rem;
+    transition-duration: .4s;
+}
+
+.Dashboard_confirmQuizNameButton__qZUIA:hover {
+    background: #4fa745;
+}

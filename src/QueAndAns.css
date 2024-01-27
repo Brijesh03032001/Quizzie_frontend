@@ -1,0 +1,151 @@
+.Dashboard_questionModalOverlay__OGshy {
+    align-items: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,0,0,.2);
+    color: #9f9f9f;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+.OptionLabel{
+    margin-right: 1.5rem;
+}
+.OptionInput{
+    margin-right: 0.35rem;
+}
+.TimerTypeInput {
+    border: none;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+    margin-bottom: 0.6rem;
+    margin-left: 0.4rem;
+    padding: 0.5rem;
+  }
+  .OptionsAndTimer_ew label:hover {
+    background-color: #ddd; /* Darker background on hover */
+  }
+  
+  .OptionsAndTimer_ew label:active {
+    box-shadow: 0px 0px 15px 0px #ff4b4b5c;
+    background: #D60000;
+    color: hsla(0, 0%, 100%, 0.959);  /* Shadow on click */
+  }
+  
+.Dashboard_questionModal__Eb-eQ {
+    background-color: #fff;
+    border-radius: 5px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 2.5rem;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.OptionsAndTimer_ew {
+    display: flex;
+    flex: 1;
+  }
+.Dashboard_optionInput__hvDuj:checked {
+    background-color: #4CAF50; /* Change to your desired green color */
+}
+.DashboardImageText::selection {
+    background-color: #4CAF50; 
+    color: #fff; 
+}
+  .OptionsAndTimer_ew label {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .OptionsAndTimer_ew [type="radio"][name="timerType"] {
+    display: none;
+  }
+  
+  .OptionsAndTimer_ew [type="radio"][name="timerType"]:checked + label {
+    background-color: green;
+    color: white;
+    cursor: default;
+  }
+.Dashboard_modalContent__BmdQm, .Dashboard_questionContent__9hHzv {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.Dashboard_modalContent__BmdQm {
+    height: -webkit-fill-available;
+    justify-content: center;
+}
+
+.Dashboard_activeQuestionNumber__OK7hC {
+    border: 2px double #60b84b;
+}
+.Dashboard_questionNo__IcRU4 {
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    -webkit-filter: drop-shadow(0 0 10px rgba(0,0,0,.15));
+    filter: drop-shadow(0 0 10px rgba(0,0,0,.15));
+    height: 10px;
+    justify-content: center;
+    padding: 1rem;
+    width: 10px;
+}
+
+.Dashboard_addBtn__d4PQa {
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.Dashboard_pollQuestion__HeJlM {
+    background: #fff;
+    border: none;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.15);
+    font-size: 1rem;
+    padding: 0.45rem 0.7rem;
+    width: -webkit-fill-available;
+}
+.Dashboard_optionInput__hvDuj {
+    border: none;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.15);
+    margin-bottom: 0.6rem;
+    margin-left: 0.4rem;
+    padding: 0.5rem;
+}
+.OptionsAndTimer_ew{
+    flex-direction: row;
+    display: flex;
+
+}
+.Dashboard_buttonContainer__jYQEj {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    width: -webkit-fill-available;
+}
+
+.Dashboard_confirmCreateQuizButton__fPfr{
+    color: hsla(0, 0%, 100%, 0.959); 
+    background: #60B84B;
+    border: none;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.25);
+    cursor: pointer;
+    flex: 1 1;
+    padding: 0.5rem;
+    transition-duration: .4s;
+}
+.Dashboard_confirmCreateQuizButton__fPfr:hover {
+    background: #4b9549; 
+}

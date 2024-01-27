@@ -1,0 +1,81 @@
+
+.Dashboard_modalPublished__h5ALC {
+    background-color: #fff;
+    border-radius: 5px;
+    gap: 0;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    height: 40vh;
+    padding: 2rem; /* Adjusted padding */
+    width: 40vw;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25); /* Added box shadow for better visual */
+}
+
+.Dashboard_modalContent__BmdQm,
+.Dashboard_questionContent__9hHzv {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.Dashboard_quizLink__O6HU6 {
+    background-color: #ededed;
+    border-radius: 0.5rem;
+    /* overflow-wrap: break-word; Changed from overflow-x: clip */
+    padding: 0.4rem 1rem;
+    overflow-x: clip;
+    text-align: center;
+}
+.Dashboard_modalContent__BmdQm {
+    height: -webkit-fill-available;
+    justify-content: center;
+}
+.Dashboard_buttonContainer__jYQEj {
+    display: flex;
+    gap: 2rem;
+    justify-content: center; /* Centered the buttons */
+    margin-top: 1.5rem;
+}
+
+.Dashboard_shareLinkBtn__W2N8m {
+    background: #60b84b;
+    border: none;
+    border-radius: 0.625rem;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    padding: 0.7rem 3rem; /* Adjusted padding */
+    transition-duration: .4s;
+}
+
+button {
+    appearance: auto;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: pointer; /* Changed from default to pointer */
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+.Dashboard_modalContent__BmdQm p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
