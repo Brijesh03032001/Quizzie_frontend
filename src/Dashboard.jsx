@@ -3,6 +3,7 @@ import React from 'react';
 import './dashboard.css'
 import nameLogo from './assets/QUIZZIE.png'
 import TrendingQuizCard from './TrendingQuizCard'
+
 function Dashboard() {
   return (
     <div className="Dashboard_mainContainer__FhjzR">

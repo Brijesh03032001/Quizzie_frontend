@@ -11,14 +11,15 @@ import UrlPlusText from './Components/responsive/UrlPlusText'
 import TextOnly from './Components/responsive/TextOnly'
 import QuizCompletion from './Components/responsive/QuizCompletion'
 import ImageOnly from './Components/responsive/ImageOnly'
+import QuizWiseAnalysisInDashboard from './QuizWiseAnalysisInDashboard'
 function App() {
   
   return (
     <>
      {/* <QuizPublished></QuizPublished> */}
-     <Dashboard></Dashboard>
+     {/* <Dashboard></Dashboard> */}
      {/* <Login_signup></Login_signup>  */}
-    
+     <QuizWiseAnalysisInDashboard></QuizWiseAnalysisInDashboard>
      {/* <QuizCompletion></QuizCompletion> */}
      {/* <UrlPlusText></UrlPlusText> */}
      {/* <CreateQuiz></CreateQuiz> */}

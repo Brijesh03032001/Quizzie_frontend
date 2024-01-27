@@ -1,0 +1,41 @@
+
+.QuizAnalysis_mainContainer__2cSRG {
+    height: -webkit-fill-available;
+    padding: 1.5rem 7rem;
+    text-align: center;
+}
+@media (max-width: 868px){
+.QuizAnalysis_mainContainer__2cSRG {
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+}
+.QuizAnalysis_header__7EMnW {
+    color: #5076ff;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+.QuizAnalysis_questionAnalysisContainer__l0IxE {
+    margin-bottom: 1.5rem;
+}
+
+.QuizAnalysis_question__IjrfM {
+    color: #000;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.QuizAnalysis_correctAttemptsBox__V3s\+i, .QuizAnalysis_incorrectAttemptsBox__2BXah, .QuizAnalysis_totalAttemptsBox__3WsA8 {
+    background: #fff;
+    border-radius: 0.3125rem;
+   
+}
+.QuizAnalysis_boxes__EeKsO {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-evenly;
+    text-align: center;
+}
