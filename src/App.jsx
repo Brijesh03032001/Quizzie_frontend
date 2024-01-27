@@ -16,11 +16,11 @@ function App() {
   return (
     <>
      {/* <QuizPublished></QuizPublished> */}
-     {/* <Dashboard></Dashboard> */}
+     <Dashboard></Dashboard>
      {/* <Login_signup></Login_signup>  */}
     
      {/* <QuizCompletion></QuizCompletion> */}
-     <UrlPlusText></UrlPlusText>
+     {/* <UrlPlusText></UrlPlusText> */}
      {/* <CreateQuiz></CreateQuiz> */}
      {/* <Analytics></Analytics> */}
      {/* <QueAndAns></QueAndAns>  */}

@@ -1,0 +1,26 @@
+
+
+.TrendingCard_trendingQuizCard__GLOms {
+    background: #fff;
+    border-radius: 0.3125rem;
+    padding: 1rem;
+    width: -webkit-max-content;
+    width: max-content;
+}
+.TrendingCard_trendingQuizCard__GLOms>div {
+    display: flex;
+    gap: 1rem;
+}
+.TrendingCard_quizName__csthr {
+    font-size: 1.3rem;
+}
+.TrendingCard_impressions__QL1NU {
+    color: #ff5d01;
+    margin-left: auto;
+    margin-right: -0.6rem;
+}
+
+.TrendingCard_creationDate__A9CVV {
+    color: #60b84b;
+    font-size: .9rem;
+}

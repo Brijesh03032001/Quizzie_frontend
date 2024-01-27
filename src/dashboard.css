@@ -9,6 +9,14 @@
     padding: 1rem 0.5rem;
     width: 15vw;
     
+
+}
+.Dashboard_trendingQuizCardContainer_qH {
+    /* grid-gap: 20px; */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .Dashboard_mainContainer__FhjzR {
     display: flex;

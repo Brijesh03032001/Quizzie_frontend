@@ -2,6 +2,7 @@
 import React from 'react';
 import './dashboard.css'
 import nameLogo from './assets/QUIZZIE.png'
+import TrendingQuizCard from './TrendingQuizCard'
 function Dashboard() {
   return (
     <div className="Dashboard_mainContainer__FhjzR">
@@ -34,9 +35,16 @@ function Dashboard() {
          </div>
       </div>
       <div>
-         <h2>Trending Quiz</h2>
-         <div className="Dashboard_trendingQuizCardContainer__qH+e1 Dashboard_firstQuiz__VYk7x">
-            <p className="Dashboard_firstQuizPara__9COZF">You haven't created any Quiz, Click on Create Quiz to create your first Quiz</p>
+      <h2>Trending Quiz</h2>
+         <div className="Dashboard_trendingQuizCardContainer_qH Dashboard_firstQuiz_VYk7x">
+            {/* <p className="Dashboard_firstQuizPara__9COZF">You haven't created any Quiz, Click on Create Quiz to create your first Quiz</p> */}
+            <TrendingQuizCard quizName="jkhjhj" impressions={7} creationDate="Jan 27, 2024" />
+         <TrendingQuizCard quizName="jkhjhj" impressions={6} creationDate="Jan 27, 2024" />
+         <TrendingQuizCard quizName="jkhjhj" impressions={4} creationDate="Jan 27, 2024" />
+         <TrendingQuizCard quizName="jkhjhj" impressions={3} creationDate="Jan 27, 2024" />
+         <TrendingQuizCard quizName="jkhjhj" impressions={2} creationDate="Jan 27, 2024" />
+         <TrendingQuizCard quizName="jkhjhj" impressions={1} creationDate="Jan 27, 2024" />
+ 
          </div>
       </div>
    </div>
